@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/rock-paper-scissors.png">
+</head>
+<body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+        <div><img id="gif" src="images/main_screen.gif" alt="" width="70%"></div> 
+        <a href="#game"><button id="start-button">PLAY</button> </a>
+    <div class="score-board">
+        <div id="user-label" class="badge">user</div>
+        <div id="computer-label" class="badge">comp</div>
+        <span id="user-score">0</span>:<span id="computer-score">0<span>
+    </div>
+
+    <div id="game" class="result">
+        <p> Let's play!</p>
+    </div>
+    <div class="battlefield">
+        <div class="play" id="user">
+            <img id='player-play' src="images/questionmark.png" alt="" width="170px">
+        <div class="play" id="vs">
+            <img src="images/vs.png" alt="" width="50px">
+        </div>
+        <div class="play" id="comp">
+            <img id='comp-play' src="images/questionmark.png" alt="" width="170">
+        </div>
+    </div>
+    <div class="choices">
+        <div class="rock">
+            <img src="images/rock_left.png" alt="" width="50px">
+        </div>
+        <div class="paper">
+            <img src="images/paper_left.png" alt="" width="50px">
+        </div>
+        <div class="scissor">
+            <img src="images/scissor_left.png" alt="" width="50px">
+        </div>
+    </div>
+    <footer id="action-message">Make your move.</footer>
+    <script src="rock_paper_scissor.js" charset="utf-8"></script>
+</body>
+</html>
